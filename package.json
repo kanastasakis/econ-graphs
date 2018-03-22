@@ -1,0 +1,24 @@
+{
+  "name": "econ_graphs",
+  "version": "1.0.0",
+  "description": "Proof of concept for interactive graphs that facilitate econ learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start:dev": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "d3": "^4.13.0",
+    "jquery": "^3.3.1",
+    "materialize-css": "^0.100.2",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.2.0"
+  }
+}

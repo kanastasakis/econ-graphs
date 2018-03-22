@@ -1,0 +1,61 @@
+<!doctype>
+<html>
+    <head>
+        <title>Demand Curve</title>
+        <script src="js/jquery.js"></script>        
+        <script src="js/d3.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.css">
+        <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h1>Hot sauce</h1>
+                <p>
+                    Greg "fire breath", eff bee for short, Pedutes likes hot sauce. He puts it on  almost everything he eats.  But, like everyone, he has limits on how much he will pay and how much he can ingest.  Below is a demand schedule describing how many bottles of hot sauces he will buy for a specified price.
+                </p>
+            </div>
+            <div class="row">
+                <div id="table-ctx" class="col">
+                    <table class="table">
+                        <thead></thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <div id="graph-ctx" class="col">
+                    <svg></svg>
+                </div>
+            </div>
+            <div>
+                <h2>
+                    Changes in Demand
+                </h2>
+                <p>
+                    His demand schedule is not static. Some of factors that will change demand are his income, the cost of substitute good and the price of a complimentary good.
+                </p>
+                <div>
+                    <form action="#">
+                        <p>Income Change</p>
+                        <p class="range-field">
+                            <span>-</span><input type="range" id="range-income" min="-100" max="100" /><span>+</span>
+                        </p>
+                    </form>
+                    <form action="#">
+                        <p>Substitute Good Price Change</p>
+                        <p class="range-field">
+                            <span>-</span><input type="range" id="range-substitute" min="-100" max="100" /><span>+</span>
+                        </p>
+                    </form> 
+                    <form action="#">
+                        <p>Compliment Good Price Change</p>
+                        <p class="range-field">
+                            <span>-</span><input type="range" id="range-compliment" min="-100" max="100" /><span>+</span>
+                        </p>
+                    </form> 
+                </div>
+            </div>
+        </div>
+        <script src="bundle.js"></script>
+    </body>
+</html>
